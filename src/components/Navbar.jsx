@@ -5,7 +5,7 @@ import { small, medium, large } from "../responsive";
 import { Badge } from "@material-ui/core";
 import {
   LocalMallOutlined,
-  Search,
+  // Search,
   ShoppingCartOutlined,
 } from "@material-ui/icons";
 import { useSelector } from "react-redux";
@@ -44,42 +44,42 @@ const Left = styled.div`
   ${medium({ fontSize: "2rem", marginRight: "0", flex: "0" })}
   ${small({ fontSize: "1.4rem" })}
 `;
-const Middle = styled.div`
-  flex: 3;
-  display: flex;
-  justify-content: center;
+// const Middle = styled.div`
+//   flex: 3;
+//   display: flex;
+//   justify-content: center;
 
-  ${medium({ flex: "0" })}
-`;
-const Input = styled.input`
-  height: 32px;
-  width: 20rem;
+//   ${medium({ flex: "0" })}
+// `;
+// const Input = styled.input`
+//   height: 32px;
+//   width: 20rem;
 
-  border: none;
-  padding: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  ${medium({ width: "10rem" })};
-  ${small({ width: "4rem" })};
-  ${large({ width: "7rem" })};
-  &:focus {
-    outline: none;
-  }
-`;
+//   border: none;
+//   padding: 5px;
+//   border-top-left-radius: 5px;
+//   border-bottom-left-radius: 5px;
+//   ${medium({ width: "10rem" })};
+//   ${small({ width: "4rem" })};
+//   ${large({ width: "7rem" })};
+//   &:focus {
+//     outline: none;
+//   }
+// `;
 
-const SearchIcon = styled(Search)`
-  background-color: white;
-  height: 40px;
-  color: #05060c;
+// const SearchIcon = styled(Search)`
+//   background-color: white;
+//   height: 40px;
+//   color: #05060c;
 
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  position: relative;
-  top: 0;
-  right: -2px;
-  padding: 16px;
-  cursor: pointer;
-`;
+//   border-top-right-radius: 5px;
+//   border-bottom-right-radius: 5px;
+//   position: relative;
+//   top: 0;
+//   right: -2px;
+//   padding: 16px;
+//   cursor: pointer;
+// `;
 
 const Right = styled.div`
   flex: 1;
@@ -117,7 +117,7 @@ const Navbar = () => {
   const user = useSelector((state) => state.user);
   const history = useNavigate();
   const value = useSelector((state) => state.search.searchValue);
-  const [search, setSearch] = useState(value);
+  // const [search, setSearch] = useState(value);
 
   return (
     <NavContainer>

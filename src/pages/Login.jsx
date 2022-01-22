@@ -120,7 +120,7 @@ const Login = () => {
               fontFamily: "Arial, Helvetica, sans-serif",
             }}
           >
-            Sign In
+            Sign Inn
           </div>
           <hr />
 

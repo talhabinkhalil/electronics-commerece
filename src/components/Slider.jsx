@@ -4,7 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // images
-import nykaa from "../assets/sliderImages/nykaa.jpg";
 import sliderFour from "../assets/sliderImages/sliderFour.png";
 import sliderThree from "../assets/sliderImages/sliderThree.jpg";
 import all from "../assets/sliderImages/all.jpg";
@@ -28,14 +27,14 @@ const Slider = () => {
             alt="slideimage"
           />
         </div>
-        <div>
+        {/* <div>
           <img
             height="300rem"
             style={{ objectFit: "cover" }}
             src={nykaa}
             alt="slideimage"
           />
-        </div>
+        </div> */}
         <div>
           <img
             height="300rem"
