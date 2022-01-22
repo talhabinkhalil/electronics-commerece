@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import styled from "styled-components";
 import Slider from "../components/Slider";
-import Brands from "../components/Brands";
+// import Brands from "../components/Brands";
 import Items from "../components/Items";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
@@ -19,7 +19,7 @@ const Home = () => {
         <Navbar />
         {/* <LowerAnnouncement /> */}
         <Slider />
-        <Brands />
+        {/* <Brands /> */}
         <Items />
         <Newsletter />
         <Footer />

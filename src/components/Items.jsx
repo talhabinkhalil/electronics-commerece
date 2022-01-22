@@ -93,7 +93,7 @@ const Items = () => {
   return (
     <ItemContainer>
       <hr />
-      <ItemTitle>Featured Products</ItemTitle>
+      <ItemTitle>Featured Categoeies</ItemTitle>
       <OuterContainer>
         {productsData.map((item) => {
           i++;

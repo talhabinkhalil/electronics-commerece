@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { small, medium, large } from "../responsive";
+import { small, medium} from "../responsive";
 
 import { Badge } from "@material-ui/core";
 import {
@@ -116,7 +116,6 @@ const Navbar = () => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
   const history = useNavigate();
-  const value = useSelector((state) => state.search.searchValue);
   // const [search, setSearch] = useState(value);
 
   return (
