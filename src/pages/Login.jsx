@@ -1,5 +1,5 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
-import background from "../assets/login/login.jfif";
+import background from "../assets/login/login.jpeg";
 
 import React, { useState } from "react";
 import Loader from "react-loader-spinner";
@@ -37,7 +37,7 @@ const Brand = styled.div`
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
-  color: #444;
+  color: white;
 `;
 const FormContainer = styled.div`
   background-color: white;
@@ -109,7 +109,7 @@ const Login = () => {
   return (
     <Container>
       <OuterContainer>
-        <Brand>MakeYouUp</Brand>
+        <Brand>ELECTRONIC COMMERCE</Brand>
 
         <FormContainer>
           <div
@@ -120,7 +120,7 @@ const Login = () => {
               fontFamily: "Arial, Helvetica, sans-serif",
             }}
           >
-            Sign Inn
+            Sign In
           </div>
           <hr />
 

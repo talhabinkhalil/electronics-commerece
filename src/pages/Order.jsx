@@ -13,6 +13,7 @@ import { large, medium } from "../responsive";
 const MainContainer = styled.div`
   background-color: whitesmoke;
 `;
+
 const TopButtons = styled.div`
   display: flex;
   gap: 5rem;

@@ -1,7 +1,7 @@
 import React from "react";
-import lipstick1 from "../assets/Items/lipstick1.jpg";
-import foundation from "../assets/Items/foundation.jpg";
-import mascara from "../assets/Items/mascara.jpg";
+import projector from "../assets/Items/projector.jpg";
+import refrigrator from "../assets/Items/refrigrator.jpg";
+import barcodescanner from "../assets/Items/barcodescanner.jpg";
 import eyeliner from "../assets/Items/eyeliner.png";
 import bronzer from "../assets/Items/bronzer.jpg";
 import blush from "../assets/Items/blush.jpg";
@@ -89,11 +89,11 @@ const Button = styled.button`
 
 const Items = () => {
   let i = -1;
-  let itemArray = [lipstick1, foundation, mascara, eyeliner, bronzer, blush];
+  let itemArray = [projector, refrigrator, barcodescanner, eyeliner, bronzer, blush];
   return (
     <ItemContainer>
       <hr />
-      <ItemTitle>Featured Categoeies</ItemTitle>
+      <ItemTitle>Featured Categories</ItemTitle>
       <OuterContainer>
         {productsData.map((item) => {
           i++;

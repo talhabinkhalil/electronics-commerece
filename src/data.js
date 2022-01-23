@@ -45,11 +45,11 @@ export const BrandData = [
 export const productsData = [
   {
     id: 1,
-    productName: "LIPSTICK",
+    productName: "PROJECTOR",
   },
   {
     id: 2,
-    productName: "FOUNDATION",
+    productName: "REFRIGERATOR",
   },
   {
     id: 3,

@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // images
 import sliderFour from "../assets/sliderImages/sliderFour.png";
 import sliderThree from "../assets/sliderImages/sliderThree.jpg";
-import all from "../assets/sliderImages/all.jpg";
+import all from "../assets/sliderImages/all.jpeg";
 import all1 from "../assets/sliderImages/all1.jpg";
 import styled from "styled-components";
 import { small } from "../responsive";

@@ -1,18 +1,18 @@
 import {
   Email,
-  EmailOutlined,
-  LinkedIn,
+  // EmailOutlined,
+  // LinkedIn,
   LocationCity,
   Phone,
-  PhoneAndroidOutlined,
+  // PhoneAndroidOutlined,
 } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
-import { medium, small } from "../responsive";
+import { small } from "../responsive";
 
 const MainContainer = styled.div`
   height: 100%;
-  background-color: #8f3985;
+  background-color: #1E90FF;
   color: black;
 `;
 const InnerContainer = styled.div`
@@ -34,15 +34,7 @@ const Right = styled.div`
   align-items: flex-start;
   flex: 1;
 `;
-const OwnerDiv = styled.div`
-  display: flex;
-  height: 3rem;
-  background-color: black;
-  color: white;
-  align-items: center;
-  justify-content: space-between;
-  ${medium({ display: "none" })}
-`;
+
 
 const Footer = () => {
   return (
@@ -51,19 +43,18 @@ const Footer = () => {
         <InnerContainer>
           <Left>
             <div>
-              <h2 style={{ textAlign: "start" }}>MakeYouUp</h2>
+              <h2 style={{ textAlign: "start" }}>Electronic Commerce</h2>
             </div>
             <div>
               <p style={{ padding: "5px" }}>
-                Nobody is born with a perfect face but everyone is blessed with
-                attractive features, waiting to be revealed. we bring you the
-                best of makeup online, featuring a wide range of personal care
-                products of high quality. Hide your blemishes and flaws to
-                create a smooth, healthy skin surface. Add colours to contour
-                your face to achieve an attractive look. Highlight your best
-                features with products that enhance them. The sky is the limit
-                when it comes to transforming your face to reveal the kind of
-                look you prefer.
+              We have a wide range of Cameras and Lenses that will uplift your photography skills. The website is also home 
+              to a gigantic variety of General-use Laptops, Gaming Laptops, Computers, Desktops and PCs available in different
+              models and specifications to suit all your computing needs . If you love audio in high-definition, we offer
+               different kinds of Speakers and Headphones from world-renowned brands to treat your ears to an unparalleled sound. 
+              We also do have a section of hi-resolution Monitors and LEDs that deliver extremely sharp and lifelike images. 
+              For business enterprises that have heavy data storage or hosting needs, Electronic Commerce offers heavy duty
+              Servers that will securely house data for as long as it is required. We are also available with projectors, freezers
+              ovens, BARCODE-Scanners etc
               </p>
             </div>
           </Left>
@@ -89,7 +80,7 @@ const Footer = () => {
           </Right>
         </InnerContainer>
       </MainContainer>
-      <OwnerDiv>
+      {/* <OwnerDiv>
         <div className="p-2"> Developed by Muthu</div>
         <div className="d-flex gap-1  ">
           <div>
@@ -105,7 +96,7 @@ const Footer = () => {
             +91-9994304490
           </div>
         </div>
-      </OwnerDiv>
+      </OwnerDiv> */}
     </>
   );
 };

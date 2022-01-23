@@ -30,7 +30,7 @@ function App() {
           <Route path="/product/:productId" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={user ? <Order /> : <Login />} />
-          {/* login register pages */}
+          
 
           <Route path="/success" element={<Success />} />
           <Route path="/login" element={<Login />} />
@@ -38,7 +38,6 @@ function App() {
           <Route path="/forget" element={<ForgetPassword />} />
           <Route path="/resetpassword/:id/:token" element={<ResetPassword />} />
 
-          {/* Admin page Routes*/}
           <Route path="/adminhome" element={<AdminHome />} />
           <Route path="/adminproductlist" element={<AdminProductList />} />
           <Route path="/adminproductedit/:id" element={<AdminProductEdit />} />
